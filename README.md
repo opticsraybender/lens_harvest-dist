@@ -4,7 +4,7 @@ A Zemax OpticStudio analysis toolkit. It connects to OpticStudio via the ZOS-API
 runs a full battery of analyses across every `.zmx` file in a folder, and lets you
 browse the results in a web-based viewer.
 
-This repository distributes the pre-built wheel (`lens_harvest-0.1.17-py3-none-any.whl`)
+This repository distributes the pre-built wheel (`lens_harvest-0.1.22-py3-none-any.whl`)
 plus a sample archive of Zemax files (`zemax_files.zip`).
 
 ---
@@ -29,13 +29,13 @@ venv\Scripts\activate          # Windows
 # source venv/bin/activate     # macOS/Linux
 
 # 2. Install the wheel (dependencies are pulled in automatically)
-pip install lens_harvest-0.1.17-py3-none-any.whl
+pip install lens_harvest-0.1.22-py3-none-any.whl
 ```
 
 To upgrade later, reinstall with `--force-reinstall`:
 
 ```bash
-pip install lens_harvest-0.1.17-py3-none-any.whl --force-reinstall
+pip install lens_harvest-0.1.22-py3-none-any.whl --force-reinstall
 ```
 
 ---
